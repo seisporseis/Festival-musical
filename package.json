@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "frontend project for my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seisporseis"
+  },
+  "keywords": [
+    "SASS",
+    "npm",
+    "Gulp",
+    "JS"
+  ],
+  "author": "Dalia Mercado @seisporseis",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}
