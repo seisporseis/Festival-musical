@@ -3,10 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/css/app.css">
     <title>Festival de música electrónica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+
 </head>
 <body>
-    <h1>starting..</h1>
+   <header class="header">
+        <div class="container content-header">
+            <h1>Techno & EDM Festival</h1>
+
+            <nav class="principal-menu">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+   </header>
+
+   <div class="video">
+        <div class="overlay">
+            <div class="container content-video">
+                <h2>Techno & EDM Festival</h2>
+                <p>July 2026, Madrid</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+                <source src="video/dj.mp4" type="video/mp4"/>
+                <source src="video/dj.ogv" type="video/ogv"/>            
+                <source src="video/dj.webm" type="video/webm"/>
+        </video>
+   </div>
+   <section class="about-festival">
+        <div class="image">
+            <img src="src/img/imagen_dj.jpg" alt="Sobre Festival" />
+        </div>
+        <div class="content-festival">
+            <h2>Techno & EDM Festival</h2>
+            <p class="date">Julio 2026, Madrid</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aut assumenda ullam facilis sapiente dolore ipsam optio cumque laboriosam animi. Doloribus esse libero, quos facilis voluptatem omnis eligendi magni provident?</p>
+        </div>
+   </section>
+
+   <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="day">Viernes 21</p>
+        <div class="scenario-container">
+            <div class="scenario bg-yellow">
+                <p class="name-scenario">Techno</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Adam Beyer</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Carl Cox</span>
+                    </li>
+                    <li>
+                        20:00 | <span>HI-LO</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Amelie Lens</span>
+                    </li>
+                    <li>
+                        18:00 | <span>CamelPhat</span>
+                    </li>
+                    <li>
+                        17:00 | <span>ARTBAT</span>
+                    </li>
+                </ul>
+            </div> <!--.scenario-->
+
+            <div class="scenario bg-green">
+                <p class="name-scenario">EDM</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>David Guetta</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Martin Garrix</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Steve Aoki</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Afrojack</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vintage Culture</span>
+                    </li>
+                </ul>
+            </div> <!--.scenario-->
+        </div> <!--.scenario-container -->
+
+        <p class="day">Sábado 22</p>
+        <div class="scenario-container container">
+            <div class="scenario bg-green">
+                <p class="name-scenario">Techno</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Reinier Zonneveld</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Eric Prydz</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Joris Voorn</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Nina Kraviz</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Argy</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+
+            <div class="scenario bg-yellow">
+                <p class="name-scenario">EDM</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Calvin Harris</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Diplo</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Steve Angello</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenarios-contenedor -->
+</section>
 </body>
 </html>
